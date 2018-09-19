@@ -58,7 +58,7 @@
 
 - scenario: os-odl-sfc
   scm: git
-  src: https://gerrit.opnfv.org/gerrit/sfc
+  src: https://github.com/pkaralis/sfc
   version: master
   role: scenarios/os-odl-sfc/role/os-odl-sfc
   installers:

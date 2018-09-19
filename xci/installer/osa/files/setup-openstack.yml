@@ -27,5 +27,6 @@
   when: not core_openstack | default(False)
 - include: os-barbican-install.yml
 - include: os-tacker-install.yml
+- include: os-barbican-install.yml
 - include: os-tempest-install.yml
   when: (tempest_install | default(False)) | bool or (tempest_run | default(False)) | bool
