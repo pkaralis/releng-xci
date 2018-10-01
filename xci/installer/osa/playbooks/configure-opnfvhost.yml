@@ -149,7 +149,6 @@
         - pyyaml
         - python-neutronclient
         - python-openstackclient
-        - python-tackerclient
     - name: Install ARA callback plugin in OSA virtualenv
       pip:
         name: ara
