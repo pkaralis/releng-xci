@@ -139,8 +139,8 @@
   version: 102e587140cfd24ea288c875888788289784cfde
 - name: os_tacker
   scm: git
-  src: https://github.com/pkaralis/openstack-ansible-os_tacker
-  version: master
+  src: https://git.openstack.org/openstack/openstack-ansible-os_tacker
+  version: 68f3093582a504975a25df504ea6aa64a3fc9ec7
 - name: os_tempest
   scm: git
   src: https://git.openstack.org/openstack/openstack-ansible-os_tempest

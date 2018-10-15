@@ -31,4 +31,3 @@
 - name: "Compute proper complete venv including proper Python path"
   set_fact:
     venv: "{{ venv | default({}) | combine(bifrost_venv_env | default({})) | combine(venv_pythonpath | default({})) }}"
-
